@@ -52,7 +52,7 @@ group :development do
 end
 
 group :production do
-  gem 'pg' #PostgreSQL gem
+  gem 'pg', '~> 0.18' #PostgreSQL gem
 end
 
 
